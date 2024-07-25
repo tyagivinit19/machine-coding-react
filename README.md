@@ -1,8 +1,16 @@
-# React + Vite
+# Machine Coding React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hosted WebSite - [https://machine-coding-react-nu.vercel.app](https://machine-coding-react-nu.vercel.app/)
 
-Currently, two official plugins are available:
+### OTP
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Alt text](src\assets\images\screenShorts\otp1.png)
+![Alt text](src\assets\images\screenShorts\otp2.png)
+![Alt text](src\assets\images\screenShorts\otp3.png)
+
+### Course List
+![Alt text](src\assets\images\screenShorts\couseList1.png)
+
+### Batches
+![Alt text](src\assets\images\screenShorts\batches1.png)
+![Alt text](src\assets\images\screenShorts\batchesSearch.png)
