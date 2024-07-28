@@ -43,7 +43,7 @@ const OTPCard = () => {
         } else if (otpStatus==='failed') {
             borderColor=RED
             bgColor = RED
-            text = 'Verified';
+            text = 'Verification failed';
         } else {
             borderColor='';
             bgColor='#112D4E';
