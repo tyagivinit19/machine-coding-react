@@ -8,7 +8,7 @@ const OTP = () => {
         {/* <MainHeading text={''}></MainHeading> */}
         <OTPCard></OTPCard>
         <div className="pt-20 fixed bottom-10 right-10">
-          <a href="https://chaicode.com/" target="_blank" className=""><img className="h-[150px] w-[140px] rounded-lg" src="/src/assets/images/cac_logo.png" alt="" /></a>
+          <a href="https://chaicode.com/" target="_blank" className=""><img className="h-[150px] w-[140px] rounded-lg" src="/assets/images/cac_logo.png" alt="" /></a>
           
         </div>
     </div>

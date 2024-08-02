@@ -440,7 +440,7 @@ const DataTable = () => {
                 <div className="mr-6 flex">
                     <div className="flex flex-col-reverse">
                         <a href="https://chaicode.com/" target="_blank" className="">
-                            <img className="h-[115px] w-[115px] rounded-lg" src="/src/assets/images/cac_logo_square.png" alt="" />
+                            <img className="h-[115px] w-[115px] rounded-lg" src="/assets/images/cac_logo_square.png" alt="" />
                         </a>
                     </div>
 

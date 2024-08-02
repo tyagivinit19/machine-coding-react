@@ -53,7 +53,7 @@ const SortableItem = ({ item, onMoveUp, onMoveDown, onItemRemove }) => {
                     <div className="flex flex-col justify-center">
                         <MdDragIndicator className='text-4xl text-[#7F7F7F]' />
                     </div>
-                    <img className="h-[75px] w-[133px] rounded-md ml-3" src={"/src/assets/images/bundleImages/bundle" + item.id + ".png"} alt="" />
+                    <img className="h-[75px] w-[133px] rounded-md ml-3" src={"/assets/images/bundleImages/bundle" + item.id + ".png"} alt="" />
                     <div className="flex flex-col justify-center ml-5 font-medium text-xl">
                         {item.title}
                     </div>
@@ -64,7 +64,7 @@ const SortableItem = ({ item, onMoveUp, onMoveDown, onItemRemove }) => {
                         {item.price}
                     </div>
                     <div className="flex flex-col justify-center w-auto">
-                        <div className="bg-[#DBFFCE]">{item.type}</div>
+                        <div className="bg-[#DBFFCE] border border-[#cccbcb] rounded-sm py-[1px] px-2 w-20 text-center text-sm">{item.type}</div>
 
                     </div>
 

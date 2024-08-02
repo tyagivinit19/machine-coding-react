@@ -13,35 +13,35 @@ const DragAndDrop = () => {
         title: 'Interview preparation with JavaScript 2.0',
         price: 'Rs. 9000/-',
         type: 'Course',
-        imagePath: '/src/assets/images/bundleImages/bundle1.png'
+        imagePath: '/assets/images/bundleImages/bundle1.png'
       },
       {
         id: '2',
         title: 'Aptitude - Averages, Mixtures & Allegation',
         price: 'Free',
         type: 'Mock Test',
-        imagePath: '/src/assets/images/bundleImages/bundle2.png'
+        imagePath: '/assets/images/bundleImages/bundle2.png'
       },
       {
         id: '3',
         title: 'Aptitude - Simple & Compound Interest',
         price: 'Free',
         type: 'Mock Test',
-        imagePath: '/src/assets/images/bundleImages/bundle3.png'
+        imagePath: '/assets/images/bundleImages/bundle3.png'
       },
       {
         id: '4',
         title: 'Aptitude - Partnership',
         price: 'Free',
         type: 'Mock Test',
-        imagePath: '/src/assets/images/bundleImages/bundle4.png'
+        imagePath: '/assets/images/bundleImages/bundle4.png'
       },
       {
         id: '5',
         title: 'Aptitude - Time & Work',
         price: 'Free',
         type: 'Mock Test',
-        imagePath: '/src/assets/images/bundleImages/bundle4.png'
+        imagePath: '/assets/images/bundleImages/bundle4.png'
       },
     ]
   )
@@ -126,7 +126,7 @@ const DragAndDrop = () => {
         <div className="mr-6 flex">
           <div className="flex flex-col-reverse">
             <a href="https://chaicode.com/" target="_blank" className="">
-              <img className="h-[115px] w-[115px] rounded-lg" src="/src/assets/images/cac_logo_square.png" alt="" />
+              <img className="h-[115px] w-[115px] rounded-lg" src="/assets/images/cac_logo_square.png" alt="" />
             </a>
           </div>
 

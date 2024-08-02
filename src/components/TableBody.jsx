@@ -6,7 +6,7 @@ const TableBody = ({ data }) => {
             {data.map((item, index) => (
                 <tr key={index} className="hover:bg-gray-100">
                     <td className="py-2 px-4 border-b">
-                        <img className="h-[60px] w-[120px] rounded-md ml-3" src={"/src/assets/images/batchesImages/"+item.imagePath} alt="" />
+                        <img className="h-[60px] w-[120px] rounded-md ml-3" src={"/assets/images/batchesImages/"+item.imagePath} alt="" />
                     </td>
                     <td className="py-2 px-4 border-b">{item.title}</td>
                     <td className="py-2 px-4 border-b">{item.startDate}</td>
