@@ -311,8 +311,6 @@ const DataTable = () => {
         }
     }, [])
 
-    
-
     const processData = () => {
 
         // data = handleSearch(data);
@@ -407,15 +405,15 @@ const DataTable = () => {
                         </form>
 
                         <div className="overflow-x-auto">
-                            <table className="min-w-full bg-white border border-gray-200">
-                                <thead>
+                            <table className="min-w-full bg-white border-separate border-spacing-0 border-t-l">
+                                <thead className="border-2 border-[#2b2a2a] bg-[#F3F3F3] text-left">
                                     <tr>
-                                        <th className="py-2 px-4 border-b" colSpan="2">Title</th>
-                                        <th className="py-2 px-4 border-b">Start Date</th>
-                                        <th className="py-2 px-4 border-b">End Date</th>
-                                        <th className="py-2 px-4 border-b">Price</th>
-                                        <th className="py-2 px-4 border-b">Validity/Expiry</th>
-                                        <th className="py-2 px-4 border-b">Status</th>
+                                        <th className="py-2 px-4 border-l-2 border-t-2 border-b-2 border-[#2b2a2a] rounded-tl-md" colSpan="2">Title</th>
+                                        <th className="py-2 px-4 border-l-2 border-t-2 border-b-2 border-[#2b2a2a]">Start Date</th>
+                                        <th className="py-2 px-4 border-l-2 border-t-2 border-b-2 border-[#2b2a2a]">End Date</th>
+                                        <th className="py-2 px-4 border-l-2 border-t-2 border-b-2 border-[#2b2a2a]">Price</th>
+                                        <th className="py-2 px-4 border-l-2 border-t-2 border-b-2 border-[#2b2a2a]">Validity/Expiry</th>
+                                        <th className="py-2 px-4 border-x-2 border-t-2 border-b-2 border-[#2b2a2a] rounded-tr-md">Status</th>
                                     </tr>
                                 </thead>
                                 <TableBody data={processData()} />
